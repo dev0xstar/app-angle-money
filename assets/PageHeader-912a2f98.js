@@ -253,12 +253,6 @@ const _ = ({ className: o }) =>
           children: "Lock",
           key: crypto.randomUUID(),
         },
-        {
-          route: r.governance,
-          image: e.jsx(a, { svg: "governanceMenuIcon" }),
-          children: "Governance",
-          key: crypto.randomUUID(),
-        },
       ],
     },
   ],
