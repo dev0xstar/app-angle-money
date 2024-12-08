@@ -105,25 +105,25 @@ const _ = ({ className: o }) =>
             " Angle Labs Inc. All rights reserved.",
           ],
         }),
-        x !== "analytics" &&
-          e.jsxs("span", {
-            className: "flex gap-4",
-            children: [
-              !1,
-              e.jsx(v, {
-                className: "py-0 text-sm hover:dark:text-peach-500",
-                to: r.terms,
-                "aria-label": "Terms and Conditions",
-                children: "Terms",
-              }),
-              e.jsx(v, {
-                className: "py-0 text-sm hover:dark:text-peach-500",
-                to: r.privacy,
-                "aria-label": "Privacy Policy",
-                children: "Privacy",
-              }),
-            ],
-          }),
+        // x !== "analytics" &&
+        //   e.jsxs("span", {
+        //     className: "flex gap-4",
+        //     children: [
+        //       !1,
+        //       e.jsx(v, {
+        //         className: "py-0 text-sm hover:dark:text-peach-500",
+        //         to: r.terms,
+        //         "aria-label": "Terms and Conditions",
+        //         children: "Terms",
+        //       }),
+        //       e.jsx(v, {
+        //         className: "py-0 text-sm hover:dark:text-peach-500",
+        //         to: r.privacy,
+        //         "aria-label": "Privacy Policy",
+        //         children: "Privacy",
+        //       }),
+        //     ],
+        //   }),
       ],
     }),
   E = ({ className: o, app: l = "angle" }) => {
@@ -158,15 +158,15 @@ const _ = ({ className: o }) =>
               ),
             onlyIcon: e.jsx(a, { size: "l", svg: s ? "xLogoLight" : "xLogo" }),
           }),
-          e.jsx(k, {
-            className: "dim",
-            look: "text",
-            onClick: () => window.open(n.angleGithub, "_blank"),
-            onlyIcon: e.jsx(a, {
-              size: "l",
-              svg: s ? "githubLight" : "github",
-            }),
-          }),
+          // e.jsx(k, {
+          //   className: "dim",
+          //   look: "text",
+          //   onClick: () => window.open(n.angleGithub, "_blank"),
+          //   onlyIcon: e.jsx(a, {
+          //     size: "l",
+          //     svg: s ? "githubLight" : "github",
+          //   }),
+          // }),
         ],
       })
     );
@@ -265,35 +265,20 @@ const _ = ({ className: o }) =>
       external: !0,
       key: crypto.randomUUID(),
     },
-    {
-      route: n.angleAnalytics,
-      children: "Analytics",
-      location: "header",
-      image: e.jsx(a, { svg: "analyticsMenuIcon" }),
-      external: !0,
-      key: crypto.randomUUID(),
-    },
+    // {
+    //   route: n.angleAnalytics,
+    //   children: "Analytics",
+    //   location: "header",
+    //   image: e.jsx(a, { svg: "analyticsMenuIcon" }),
+    //   external: !0,
+    //   key: crypto.randomUUID(),
+    // },
     {
       route: n.angleGovernance,
       children: "Forum",
       location: "header",
       image: e.jsx(a, { svg: "forumMenuIcon" }),
       external: !0,
-      key: crypto.randomUUID(),
-    },
-    {
-      route: n.angleDevelopers,
-      children: "Developers",
-      location: "header",
-      image: e.jsx(a, { svg: "developersMenuIcon" }),
-      external: !0,
-      key: crypto.randomUUID(),
-    },
-    {
-      route: r.audits,
-      children: "Audits",
-      location: "header",
-      image: e.jsx(a, { svg: "auditsMenuIcon" }),
       key: crypto.randomUUID(),
     },
     {
