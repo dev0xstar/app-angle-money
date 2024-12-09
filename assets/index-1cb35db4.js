@@ -142,7 +142,7 @@ const A = ({
           ". You can then navigate to the type of campaign you want to create. If you want your protocol to be supported by Merkl, create more tailored and personalized incentives, or if you want Merkl to support specific use cases (e.g., incentivizing users of a perpetual DEX protocol, incentivizing borrowers of a lending protocol who are not folding their positions, creating incentivization programs for yield aggregators, add any type of custom rules to build your dream incentivization program, ...), please contact us by",
           " ",
           e.jsx("a", {
-            href: "https://t.me/+NGnnSUFbTPBmZjU0",
+            href: "https://t.me/Angprotocol",
             children: "joining our Telegram",
           }),
           ".",
@@ -162,7 +162,7 @@ const A = ({
           ". For any integration inquiries, please reach out to us by",
           " ",
           e.jsx("a", {
-            href: "https://t.me/+NGnnSUFbTPBmZjU0",
+            href: "https://t.me/Angprotocol",
             children: "joining our Telegram",
           }),
           ".",
@@ -241,7 +241,7 @@ const A = ({
           "Yes, this is normal. Campaign creation typically takes about 30 minutes to 1 hour before it becomes visible on Merkl's frontend. If it takes longer than this, please contact the Merkl team by",
           " ",
           e.jsx("a", {
-            href: "https://t.me/+NGnnSUFbTPBmZjU0",
+            href: "https://t.me/Angprotocol",
             children: "joining our Telegram",
           }),
           " ",
@@ -255,7 +255,7 @@ const A = ({
           "Yes, users earning less than 1/10,000,000th (0.00001%) of the campaign rewards per engine run are not eligible for incentives. For concentrated liquidity only, positions with less than $20 of liquidity are not eligible for incentives. Rewards can only be claimed by the address that earned them. If you need to claim rewards on behalf of another address, please",
           " ",
           e.jsx("a", {
-            href: "https://t.me/+NGnnSUFbTPBmZjU0",
+            href: "https://t.me/Angprotocol",
             children: "joining our Telegram",
           }),
           " ",
@@ -334,7 +334,7 @@ const A = ({
           " ",
           e.jsx("a", {
             className: "underlined",
-            href: "https://www.google.com/url?q=https://t.me/+NGnnSUFbTPBmZjU0",
+            href: "https://www.google.com/url?q=https://t.me/Angprotocol",
             target: "_blank",
             rel: "noreferrer noopener",
             children: "Merkl Telegram",
@@ -351,7 +351,7 @@ const A = ({
           " ",
           e.jsx("a", {
             className: "underlined",
-            href: "https://www.google.com/url?q=https://t.me/+NGnnSUFbTPBmZjU0",
+            href: "https://www.google.com/url?q=https://t.me/Angprotocol",
             target: "_blank",
             rel: "noreferrer noopener",
             children: "Merkl Telegram by",
